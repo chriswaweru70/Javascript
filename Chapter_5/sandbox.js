@@ -2,11 +2,11 @@ let age = null;
 
 console.log(age, age + 3, `let the value of his age be ${age}`);
 
-Booleans and Comparisons
+// Booleans and Comparisons
 
 console.log(true, false, "true", "false");
 
-methods can return booleans
+// methods can return booleans
 
 let myEmail = 'chriswaweru70@gmail.com';
 let name = ['ishi', 'fooshy', 'Rishy'];
@@ -17,7 +17,7 @@ let inch = name.includes('ishi');
 
 console.log(inch);
 
-Comparison operators
+// Comparison operators
 let age = 30
 
 console.log(age == 30);
