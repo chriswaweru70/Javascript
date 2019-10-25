@@ -6,7 +6,7 @@ if (age > 39) {
     console.log('This is greater than 30');
 }
 
-const ninjas = ['Shaun', 'Ryu', 'Chris', 'Fish', 'Gilbert']
+const ninjas = ['Shaun', 'Ryu', 'Chris', 'Fish', 'Gilbert'];
 
 if (ninjas.length > 4) {
     console.log('So many ninjas');
@@ -14,6 +14,11 @@ if (ninjas.length > 4) {
 
 const password = 'pass'
 
-if (password.length < 8) {
-    console.log('This is a weak password')
+if (password.length >= 12) {
+    console.log('Thats a very strong password thankyou')
+}
+else if (password.length < 8) {
+    console.log('This is a weak ass password')
+} else {
+    console.log('THis password is okay');
 }
